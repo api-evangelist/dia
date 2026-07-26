@@ -1,8 +1,25 @@
 aid: dia
 name: Dia
-description: Dia is a company surfaced as a portfolio company of union-square-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Dia & Co is a plus-size fashion and personal styling subscription service for women, operated
+  by FullBeauty Brands. Customers complete an online style quiz, and stylists curate a monthly box of up
+  to seven clothing items in sizes 10 to 32 from hundreds of brands to try on at home, with free shipping
+  and free returns both ways. Dia & Co also runs an online shop and has been featured in Vogue, Forbes,
+  and Glamour, and was an early portfolio company of Union Square Ventures. It operates as a consumer
+  e-commerce brand and publishes no public developer API; this profile tracks its web and security surface
+  within the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/dia/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://d2mufk0wtzg9ln.cloudfront.net/shared/fbshare.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fashion
+- Retail
+- E-Commerce
+- Personal Styling
+- Subscription
+- Apparel
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dia-domain-security.yml
 - type: Website
   url: https://www.dia.com
+- type: Blog
+  url: https://www.dia.com/blog
+- type: HelpCenter
+  url: https://support.dia.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://www.dia.com/privacy-policy
+- type: TermsOfService
+  url: https://www.dia.com/terms-of-service
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
